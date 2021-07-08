@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #E6EFF5;
+  font-family: 'Karla', sans-serif;
+
+
+}
+.container{
+  max-width: 635px;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+}
+.item-1 {
+  background-color: #FFF;
+  padding: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.item-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-2 > *{
+  width: 100%
+}
+
+.item-1 h1 {
+  color: #2ab3b1;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+}
+.item-1 h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #C0DF33;
+
+  margin-bottom: 11px;
+}
+.item-1 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #9AA7BE;
+}
+.item-3 {
+  background-color: rgb(42, 179, 177);
+    padding: 40px;
+}
+.item-3 h1 {
+  font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: #FFFFFF;
+  
+    margin-bottom: 18px;
+}
+
+.item-3 .item-4 .item-5 {
+  width: auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+  color: #FFFFFF;
+
+  margin-right: 11px;
+}
+
+.item-3 .item-4 .item-6 {
+  font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+  
+    letter-spacing: -0.2px;
+  
+    color: #FFFFFF;
+  
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.item-3 p {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+}
+.item-3 a {
+  display: flex;
+  justify-content: center;
+
+  background: #C0DF33;
+  padding: 15px 0;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+
+  text-decoration: none;
+  color: #FFF;
+}
+
+.item-4{
+  align-items: center;
+}
+
+.item-7 {
+  background-color: rgba(42, 179, 177, 0.8);
+  padding: 40px;
+}
+.item-7 p {
+  font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  
+    letter-spacing: -0.175px;
+  
+    color: #FFFFFF;
+  
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+.item-7 h1{
+  font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: #FFFFFF;
+  
+    margin-bottom: 18px;
+}

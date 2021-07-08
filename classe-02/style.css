@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #19A1AE;
+    background-image: URL('./assets/bg-pattern-top.svg'), url('./assets/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 30vh, left 50vw top 50vh;
+  }
+
+  .container{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+  }
+
+  .container img{
+    
+    background: #41CBD3;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+.perfil-do-usuario{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 24px;
+
+    border-bottom: 1px solid #E8E9EC;
+    padding-bottom: 28px;
+
+}
+
+.perfil-do-usuario img{
+    
+    margin-top: -50px;
+    border: 5px solid #FFFFFF;
+    border-radius: 50px;
+}
+.dados-do-usuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil-do-usuario .dados-do-usuario{
+    margin-bottom: 13px;
+}
+
+.dados-do-usuario h1{
+
+font-weight: bold;
+font-size: 18px;
+line-height: 18px;
+text-align: center;
+
+color: #2E3349;
+margin-right: 9px;
+}
+
+.dados-do-usuario span{
+ 
+ font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+color: #6B7082;
+}
+
+.cidade-usuario{
+ 
+margin-top: 13px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+
+color: #6B7082;
+
+}
+
+.dados-enganjamento{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 24px;
+
+
+}
+.dados-enganjamento h1{
+display: flex;
+flex-direction: column;
+
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 18px;
+text-align: center;
+
+color: #2E3349;
+}
+.dados-enganjamento span{
+   
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 10px;
+
+padding-top: 10px;
+
+text-align: center;
+letter-spacing: 1.5px;
+
+color: #6B7082;
+}
+
+.dados-enganjamento .item-1 .item-2 .item-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
